@@ -1,0 +1,72 @@
+.section-one {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+img {
+  margin: 0 auto;
+}
+
+#count,
+#count-tab,
+#count-tv,
+#count {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container p {
+  text-align: center;
+}
+
+button {
+  border: 1px solid purple;
+  background: purple;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid rgb(54, 4, 54);
+  background: rgb(54, 4, 54);
+}
+
+.container img {
+  width: 200px; /* Adjust the width to match the size of your phones and tablets */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg, #ff6699, #6699ff, #66ff99, #ff9966);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
