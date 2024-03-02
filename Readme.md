@@ -1,1 +1,1 @@
-# this is about a test to Redux within the vanilla JS
+# this is about  Redux with the vanilla JS
